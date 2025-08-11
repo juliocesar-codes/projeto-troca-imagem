@@ -5,7 +5,7 @@
 }
 
 :root {
-    --bg-img: url('./img/itapevi.webp');
+    --bg-img: url('./img/itapevi.jpg');
 }
 
 body {
@@ -13,6 +13,7 @@ body {
     display: grid;
     place-content: center;
     background-image: var(--bg-img);
+    background-size: cover;
 }
 
 .container {
